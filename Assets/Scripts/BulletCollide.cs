@@ -12,7 +12,7 @@ public class BulletCollide : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("trigger enter");
+        Debug.Log("bullet trigger enter");
         gameObject.SetActive(false);
     }
 
